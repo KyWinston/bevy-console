@@ -13,7 +13,7 @@ readme = "README.md"
 bevy = { version = "0.14.0-rc.2" }
 clap = { version = "4.5", features = ["derive"] }
 bevy_console_derive = { path = "./bevy_console_derive" }
-bevy_egui = { path = "../bevy_egui" }
+bevy_egui = { git = "https://github.com/KyWinston/bevy_egui", branch = "main" }
 shlex = "1.3"
 
 [dev-dependencies]
